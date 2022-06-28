@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    font-weight:100;
+    color: white;
+    background-color: #ff99c8;
+  }
+  .review{
+    display:flex;
+    text-align: center;
+    font-size: large;
+    font-family: fantasy;
+    margin-top: 70px;
+    margin-left: -150px;
+    margin-right: 25px;
+
+}
+.reviews{
+    display: flex;
+    font-size: large;
+    text-indent: 88px;
+    margin-top: 70px;
+    margin-left: 400px;
+    height: 400px;
+    width: 320px;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    opacity: 0.75;
+    background-image: linear-gradient(#ff99c8, #fcf6bd)
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size:large;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.avgRating {
+    display: flex;
+    text-indent: 60px;
+    margin-top: -403px;
+    margin-left: 750px;
+    
+    height: 400px;
+    width: 320px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-image: linear-gradient(#fcf6bd, #d0f4de)
+}
+
+.visitors {
+    display: flex;
+    text-indent: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 400px;
+    height: 400px;
+    width: 1000px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-image: linear-gradient(to right,#ff99c8, #fcf6bd, #d0f4de, #a9def9,#e4c1f9) 
+}
+
+
+.analysis {
+    display: flex;
+    text-indent: 100px;
+    margin-top: -850px;
+    margin-left: 1100px;
+    height: 400px;
+    width: 320px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-image: linear-gradient(#a9def9, #e4c1f9)
+}
+
+.menu {
+    font-family: fantasy;
+    display: flex;
+    text-indent: 40px;
+    margin-top: -400px;
+    margin-right: 900px;
+    margin-left: 40px;
+    height: 700px;
+    width: 300px;
+    background-color:#ff99c8; 
+    border-radius: 20px;
+}
+
+.menuList{
+    display: block;
+    margin-top: 100px;
+    margin-left: -150px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.list2{
+    display: block;
+    margin-top: 100px;
+    margin-left: -280px;
+    list-style-type: none;
+    text-align: center;
+    font-size: x-large;
+}
